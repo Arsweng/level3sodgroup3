@@ -1,6 +1,6 @@
 <html>
     <head>
-        <title>view-employees</title>
+        <title>list of students in level3sod</title>
     <link rel="stylesheet" href="/style.css">
 
     </head>
@@ -26,6 +26,9 @@
         </li>
         <li class="nav-item">
         <a href="/attendances" class="nav-link">attendance</a>
+        </li>
+        <li class="nav-item">
+        <a href="/attended-students" class="nav-link">export</a>
         </li>
       </ul>
     </div>

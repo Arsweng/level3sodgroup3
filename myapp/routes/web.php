@@ -1,4 +1,4 @@
-<<?php
+<?php
 use App\Http\Controllers\ItemController;
 
 use Illuminate\Support\Facades\Route;
@@ -13,7 +13,9 @@ Route::get('/', function () {
 
 Route::post('/save-Employee',[StudentController::class, 'store'])->name('save-Employee');
 Route::get('/view',[StudentController::class, 'view'])->name('view');
+Route::get('/export-page',[StudentController::class, 'exportPage'])->name('exportPage');
 Route::get('/attend/{id}',[AttendanceController::class, 'store'])->name('store');
 Route::get('/attendances',[AttendanceController::class, 'retrieve'])->name('attendances');
 Route::get('/export-students', [StudentController::class, 'exportStudents']);
+Route::get('/attended-students', [AttendanceController::class, 'exportStudents']);
 

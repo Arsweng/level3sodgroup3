@@ -1,0 +1,54 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    
+}
+nav{
+    width: 100%;
+    height: 50px;
+    background-color: aqua;
+    align-items: center;
+    padding: 0px 0px;
+    line-height: 55px;
+    overflow: hidden;
+}
+.logo{
+    float: left;
+}
+nav div p{
+    color: white;
+    text-transform: uppercase;
+    font-size: 22px;
+}
+ul{
+    float: right;
+    justify-content: space-between;
+    width: auto;
+}
+ul li{
+    list-style: none;
+    display: inline-block;
+}
+ul li:hover{
+    background-color: aliceblue;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    display: block;
+    padding: 0 15px;
+    transition: 0.3s;
+
+}
+ul li a:hover{
+    color: #000000;
+}
+.active{
+    color: #000000;
+}
+.clicked{
+    background-color: rgb(255, 0, 0);
+}

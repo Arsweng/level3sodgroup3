@@ -27,6 +27,9 @@
         <li class="nav-item">
         <a href="/attendances" class="nav-link active">attendance</a>
         </li>
+        <li class="nav-item">
+        <a href="/attended-students" class="nav-link">export</a>
+        </li>
       </ul>
     </div>
   </div>
